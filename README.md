@@ -233,6 +233,18 @@ limitation, the legality, appropriateness, and results thereof).
 
 ---
 
+## Security
+
+Please refer to our [Security Policy](SECURITY.md) for reporting vulnerabilities.
+
+---
+
+## Privacy
+
+Please refer to our [Privacy Policy](PRIVACY.md) for information on how we handle your data.
+
+---
+
 ## Contributing
 
 We love community contributions! Get started by reading our

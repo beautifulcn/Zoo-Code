@@ -1,3 +1,11 @@
+<div align="center">
+<sub>
+
+<b>English</b> • [简体中文](locales/zh-CN/PRIVACY.md)
+
+</sub>
+</div>
+
 # Zoo Code Privacy Policy
 
 **Last Updated: May 13th, 2026**
