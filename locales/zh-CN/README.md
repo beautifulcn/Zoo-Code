@@ -165,6 +165,18 @@ pnpm install:vsix [-y] [--editor=<command>]
 
 ---
 
+## 安全
+
+有关报告漏洞的信息，请参阅我们的[安全政策](SECURITY.md)。
+
+---
+
+## 隐私
+
+有关我们如何处理您的数据的信息，请参阅我们的[隐私政策](PRIVACY.md)。
+
+---
+
 ## 贡献
 
 我们欢迎社区贡献！请阅读我们的 [CONTRIBUTING.md](CONTRIBUTING.md) 开始。
