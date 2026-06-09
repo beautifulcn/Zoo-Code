@@ -7,9 +7,11 @@ import { LLMock } from "@copilotkit/aimock"
 
 import { addApplyDiffResultFixtures } from "./fixtures/apply-diff"
 import { addExecuteCommandResultFixtures } from "./fixtures/execute-command"
+import { addTerminalProfileResultFixtures } from "./fixtures/terminal-profile"
 import { addListFilesResultFixtures } from "./fixtures/list-files"
 import { addReadFileResultFixtures } from "./fixtures/read-file"
 import { addSearchFilesResultFixtures } from "./fixtures/search-files"
+import { addSubtaskFixtures } from "./fixtures/subtasks"
 import { addUseMcpToolResultFixtures } from "./fixtures/use-mcp-tool"
 import { addWriteToFileResultFixtures } from "./fixtures/write-to-file"
 
@@ -107,9 +109,11 @@ async function main() {
 			if (!isRecord) {
 				addApplyDiffResultFixtures(mock)
 				addExecuteCommandResultFixtures(mock)
+				addTerminalProfileResultFixtures(mock)
 				addListFilesResultFixtures(mock)
 				addReadFileResultFixtures(mock)
 				addSearchFilesResultFixtures(mock)
+				addSubtaskFixtures(mock)
 				addUseMcpToolResultFixtures(mock)
 				addWriteToFileResultFixtures(mock)
 
@@ -157,7 +161,7 @@ async function main() {
 			extensionTestsPath,
 			launchArgs: [testWorkspace],
 			extensionTestsEnv,
-			version: process.env.VSCODE_VERSION || "1.101.2",
+			version: process.env.VSCODE_VERSION || "1.100.0",
 		})
 	} catch (error) {
 		console.error("Failed to run tests", error)
