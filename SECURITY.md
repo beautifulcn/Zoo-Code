@@ -14,4 +14,4 @@ Email support@zoocode.dev with:
 
 We acknowledge reports within 48 hours and aim to release a fix or mitigation within 30 days. While we work on a resolution, please keep the details private.
 
-Thank you for helping us keep Zoo Code users safe.
+Thank you for helping us keep Zoo Code users safe.
