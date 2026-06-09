@@ -1,11 +1,3 @@
-<div align="center">
-<sub>
-
-<b>English</b> • [简体中文](locales/zh-CN/SECURITY.md)
-
-</sub>
-</div>
-
 # Security Policy
 
 ## Supported Versions
